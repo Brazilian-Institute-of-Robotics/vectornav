@@ -233,7 +233,7 @@ int main(int argc, char *argv[])
 
     // Configure binary output message
     BinaryOutputRegister bor(
-            ASYNCMODE_PORT1,
+            ASYNCMODE_PORT2,
             SensorImuRate / async_output_rate,  // update rate [ms]
             COMMONGROUP_QUATERNION
             | COMMONGROUP_YAWPITCHROLL
